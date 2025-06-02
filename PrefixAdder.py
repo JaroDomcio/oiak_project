@@ -1,5 +1,5 @@
 class ParallelPrefixAdder:
-    def __init__(self, width=16):
+    def __init__(self, width):
         self.width = width
 
     #Zamiana liczby na listę bitów od LSB do MSB (Odwrócona wartość binarna)

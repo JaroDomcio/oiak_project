@@ -1,5 +1,5 @@
-class FlaggedParallerPrefixAdder:
-    def __init__(self, width=8):
+class FlaggedParallerPrefixAdder():
+    def __init__(self, width):
         self.width = width
 
     def _bit_list(self, value):
